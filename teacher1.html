@@ -1,0 +1,358 @@
+<div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="x_panel">
+            <div class="x_title">
+                <h3 class="head-title"><i class="fa fa-users"></i><small> Manage Teacher</small></h3>
+                <ul class="nav navbar-right panel_toolbox">
+                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a></li>                    
+                </ul>
+                <div class="clearfix"></div>
+            </div>      
+            
+            <div class="x_content">
+                <div class="" data-example-id="togglable-tabs">
+                    
+                    <ul class="nav nav-tabs bordered">
+                        <li class="active"><a href="#tab_teacher_list" role="tab" data-toggle="tab" aria-expanded="true"><i class="fa fa-list-ol"></i> Teacher List</a> </li>
+                        
+                                                
+                                                            <li class=""><a href="#tab_add_teacher" role="tab" data-toggle="tab" aria-expanded="false"><i class="fa fa-plus-square-o"></i> Add Teacher</a> </li>                          
+                                                     
+                          
+                        
+                           
+                            
+                            
+                            
+                    </ul>
+                    <br>
+                    
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="tab_teacher_list">
+                            <div class="x_content">
+                            <div id="datatable-responsive_wrapper" class="dataTables_wrapper form-inline no-footer"><div class="dt-buttons"><a class="dt-button buttons-copy buttons-html5" tabindex="0" aria-controls="datatable-responsive"><span>Copy</span></a><a class="dt-button buttons-excel buttons-html5" tabindex="0" aria-controls="datatable-responsive"><span>Excel</span></a><a class="dt-button buttons-csv buttons-html5" tabindex="0" aria-controls="datatable-responsive"><span>CSV</span></a><a class="dt-button buttons-pdf buttons-html5" tabindex="0" aria-controls="datatable-responsive"><span>PDF</span></a><a class="dt-button buttons-collection buttons-page-length" tabindex="0" aria-controls="datatable-responsive"><span>Show 15 rows</span></a></div><div id="datatable-responsive_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control input-sm" placeholder="" aria-controls="datatable-responsive"></label></div><table id="datatable-responsive" class="table table-striped table-bordered dt-responsive nowrap dataTable no-footer dtr-inline" cellspacing="0" width="100%" role="grid" aria-describedby="datatable-responsive_info" style="width: 100%;">
+                                <thead>
+                                    <tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="datatable-responsive" rowspan="1" colspan="1" style="width: 45.0208px;" aria-sort="ascending" aria-label="#SL: activate to sort column descending">#SL</th><th class="sorting" tabindex="0" aria-controls="datatable-responsive" rowspan="1" colspan="1" style="width: 105.021px;" aria-label="School: activate to sort column ascending">School</th><th class="sorting" tabindex="0" aria-controls="datatable-responsive" rowspan="1" colspan="1" style="width: 105.021px;" aria-label="Photo: activate to sort column ascending">Photo</th><th class="sorting" tabindex="0" aria-controls="datatable-responsive" rowspan="1" colspan="1" style="width: 68.0208px;" aria-label="Name: activate to sort column ascending">Name</th><th class="sorting" tabindex="0" aria-controls="datatable-responsive" rowspan="1" colspan="1" style="width: 147.021px;" aria-label="Responsibility: activate to sort column ascending">Responsibility</th><th class="sorting" tabindex="0" aria-controls="datatable-responsive" rowspan="1" colspan="1" style="width: 109.021px;" aria-label="Phone: activate to sort column ascending">Phone</th><th class="sorting" tabindex="0" aria-controls="datatable-responsive" rowspan="1" colspan="1" style="width: 62.0208px;" aria-label="Email: activate to sort column ascending">Email</th><th class="sorting" tabindex="0" aria-controls="datatable-responsive" rowspan="1" colspan="1" style="width: 129.021px;" aria-label="Joining Date: activate to sort column ascending">Joining Date</th><th class="sorting" tabindex="0" aria-controls="datatable-responsive" rowspan="1" colspan="1" style="width: 168.021px;" aria-label="Is View on Web?: activate to sort column ascending">Is View on Web?</th><th class="sorting" tabindex="0" aria-controls="datatable-responsive" rowspan="1" colspan="1" style="width: 98.0208px;" aria-label="Action: activate to sort column ascending">Action</th></tr>
+                                </thead>
+                                <tbody>   
+                                                                                                                    
+                                                                                                            <tr role="row" class="odd">
+                                            <td tabindex="0" class="sorting_1">1</td>
+                                                                                            <td>ABC School</td>
+                                                                                        <td>
+                                                                                                <img src="http://localhost/multischool//assets/images//default-user.png" alt="" width="70"> 
+                                                                                            </td>
+                                            <td>Teacher</td>
+                                            <td>er</td>
+                                            <td>1455452455</td>
+                                            <td></td>
+                                            <td>2019-06-06</td>
+                                            <td>No</td>
+                                            <td>
+                                                                                                    <a href="http://localhost/multischool/teacher/edit/1" class="btn btn-info btn-xs"><i class="fa fa-pencil-square-o"></i> Edit </a><br>
+                                                 
+                                                                                                    <a onclick="get_teacher_modal(1);" data-toggle="modal" data-target=".bs-teacher-modal-lg" class="btn btn-success btn-xs"><i class="fa fa-eye"></i> View </a><br>
+                                                                                                                                                    <a href="http://localhost/multischool/teacher/delete/1" onclick="javascript: return confirm('Are you sure you want to delete this');" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i> Delete </a>
+                                                 
+                                            </td>
+                                        </tr></tbody>
+                            </table><div class="dataTables_info" id="datatable-responsive_info" role="status" aria-live="polite">Showing 1 to 1 of 1 entries</div><div class="dataTables_paginate paging_simple_numbers" id="datatable-responsive_paginate"><ul class="pagination"><li class="paginate_button previous disabled" aria-controls="datatable-responsive" tabindex="0" id="datatable-responsive_previous"><a href="#">Previous</a></li><li class="paginate_button active" aria-controls="datatable-responsive" tabindex="0"><a href="#">1</a></li><li class="paginate_button next disabled" aria-controls="datatable-responsive" tabindex="0" id="datatable-responsive_next"><a href="#">Next</a></li></ul></div></div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade in " id="tab_add_teacher">
+                            <div class="x_content"> 
+                               <form action="http://localhost/multischool/teacher/add" name="add" id="add" class="form-horizontal form-label-left" enctype="multipart/form-data" method="post" accept-charset="utf-8" novalidate="novalidate">
+                                
+                                <div class="item form-group">
+    <label class="control-label col-md-3 col-sm-3 col-xs-12" for="school_id">School <span class="required">*</span></label>
+    <div class="col-md-6 col-sm-6 col-xs-12">
+        <select class="form-control col-md-7 col-xs-12 fn_school_id" name="school_id" id="add_school_id" required="required">
+            <option value="">--Select--</option>
+                            <option value="1">ABC School</option>
+                            <option value="5">Sample School</option>
+                    </select>
+        <div class="help-block"></div>
+    </div>
+</div>
+                                
+                         
+                                 <div class="row">                  
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <h5 class="column-title"><strong>Basic Information:</strong></h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="name">Name <span class="required">*</span></label>
+                                            <input class="form-control col-md-7 col-xs-12" name="name" id="name" value="" placeholder="Name" required="required" type="text" autocomplete="off">
+                                            <div class="help-block"></div> 
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="national_id">National ID </label>
+                                            <input class="form-control col-md-7 col-xs-12" name="national_id" id="national_id" value="" placeholder="National ID" type="text" autocomplete="off">
+                                            <div class="help-block"></div> 
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="responsibility">Responsibility <span class="required">*</span></label>
+                                            <input class="form-control col-md-7 col-xs-12" name="responsibility" id="responsibility" value="" placeholder="Responsibility" required="required" type="text" autocomplete="off">
+                                            <div class="help-block"></div> 
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="phone">Phone <span class="required">*</span></label>
+                                            <input class="form-control col-md-7 col-xs-12" name="phone" id="phone" value="" placeholder="Phone" required="required" type="text" autocomplete="off">
+                                            <div class="help-block"></div> 
+                                        </div>
+                                    </div>
+                                    
+                                
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="gender">Gender <span class="required">*</span></label>
+                                             <select class="form-control col-md-7 col-xs-12" name="gender" id="gender" required="required">
+                                                <option value="">--Select--</option>
+                                                                                                                                                    <option value="male">Male</option>
+                                                                                                    <option value="female">Female</option>
+                                                                                            </select>
+                                        <div class="help-block"></div> 
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="blood_group">Blood Group </label>
+                                            <select class="form-control col-md-7 col-xs-12" name="blood_group" id="blood_group">
+                                                <option value="">--Select--</option> 
+                                                                                                                                                    <option value="a_positive">A+</option>
+                                                                                                    <option value="a_negative">A-</option>
+                                                                                                    <option value="b_positive">B+</option>
+                                                                                                    <option value="b_negative">B-</option>
+                                                                                                    <option value="o_positive">O+</option>
+                                                                                                    <option value="o_negative">O-</option>
+                                                                                                    <option value="ab_positive">AB+</option>
+                                                                                                    <option value="ab_negative">AB-</option>
+                                                                                            </select>
+                                        <div class="help-block"></div> 
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="religion">Religion </label>
+                                            <input class="form-control col-md-7 col-xs-12" name="religion" id="religion" value="" placeholder="Religion" type="text" autocomplete="off">
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="dob">Birth Date <span class="required">*</span></label>
+                                            <input class="form-control col-md-7 col-xs-12" name="dob" id="add_dob" value="" placeholder="Birth Date" required="required" type="text" autocomplete="off">
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>
+                                    
+                                        <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="present_address">Present Address </label>
+                                            <textarea class="form-control col-md-7 col-xs-12 textarea-4column" name="present_address" id="present_address" placeholder="Present Address"></textarea>
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="permanent_address">Permanent Address</label>
+                                            <textarea class="form-control col-md-7 col-xs-12 textarea-4column" name="permanent_address" id="permanent_address" placeholder="Permanent Address"></textarea>
+                                        <div class="help-block"></div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>                                                      
+                                                             
+                                <div class="row">                  
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <h5 class="column-title"><strong>Academic Information:</strong></h5>
+                                    </div>
+                                </div>
+                                <div class="row"> 
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="email">Email </label>
+                                            <input class="form-control col-md-7 col-xs-12" name="email" id="email" value="" placeholder="Email" type="email" autocomplete="off">
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="username">Username <span class="required">*</span></label>
+                                            <input class="form-control col-md-7 col-xs-12" name="username" id="username" value="" placeholder="Username" required="required" type="text" autocomplete="off">
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div> 
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="password">Password <span class="required">*</span></label>
+                                            <input class="form-control col-md-7 col-xs-12" name="password" id="password" value="" placeholder="Password" required="required" type="text" autocomplete="off">
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>  
+                                     <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="salary_grade_id">Salary Grade <span class="required">*</span></label>
+                                            <select class="form-control col-md-7 col-xs-12 quick-field" name="salary_grade_id" id="add_salary_grade_id" required="required">
+                                                <option value="">--Select--</option>                                                                                    
+                                                           
+                                            </select>
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>  
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="salary_type">Salary Type <span class="required">*</span></label>
+                                            <select class="form-control col-md-7 col-xs-12" name="salary_type" id="salary_type" required="required">
+                                                <option value="">--Select--</option>                                                                                    
+                                                <option value="monthly">Monthly</option>                                           
+                                                <option value="hourly">Hourly</option>                                           
+                                            </select>
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>                                    
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="role_id">Role <span class="required">*</span></label>
+                                            <select class="form-control col-md-7 col-xs-12 quick-field" name="role_id" id="role_id" required="required">                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <option value="5">Teacher</option>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </select>
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="joining_date">Joining Date <span class="required">*</span></label>
+                                            <input class="form-control col-md-7 col-xs-12" name="joining_date" id="add_joining_date" value="" placeholder="Joining Date" required="required" type="text" autocomplete="off">
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="resume">Resume </label>                                           
+                                            <div class="btn btn-default btn-file">
+                                                <i class="fa fa-paperclip"></i> Upload                                                <input class="form-control col-md-7 col-xs-12" name="resume" id="resume" type="file">
+                                            </div>
+                                            <div class="text-info">Document file format: pdf, .doc, .docx or .txt</div>
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>  
+                                </div>
+                                
+                                <div class="row">                  
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <h5 class="column-title"><strong>Other Information:</strong></h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="is_view_on_web">Is View on Web? </label>
+                                            <select class="form-control col-md-7 col-xs-12" name="is_view_on_web" id="is_view_on_web">
+                                                <option value="">--Select--</option>                                                                                    
+                                                <option value="1">Yes</option>                                           
+                                                <option value="0">No</option>                                           
+                                            </select>
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="facebook_url">Facebook URL </label>
+                                            <input class="form-control col-md-7 col-xs-12" name="facebook_url" id="facebook_url" value="" placeholder="Facebook URL" type="text" autocomplete="off">
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="linkedin_url">Linkedin URL </label>
+                                            <input class="form-control col-md-7 col-xs-12" name="linkedin_url" id="linkedin_url" value="" placeholder="Linkedin URL" type="text" autocomplete="off">
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="twitter_url">Twitter URL </label>
+                                            <input class="form-control col-md-7 col-xs-12" name="twitter_url" id="twitter_url" value="" placeholder="Twitter URL" type="text" autocomplete="off">
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="google_plus_url">Google Plus URL </label>
+                                            <input class="form-control col-md-7 col-xs-12" name="google_plus_url" id="google_plus_url" value="" placeholder="Google Plus URL" type="text" autocomplete="">
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="instagram_url">Instagram URL </label>
+                                            <input class="form-control col-md-7 col-xs-12" name="instagram_url" id="instagram_url" value="" placeholder="Instagram URL" type="text" autocomplete="off">
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="youtube_url">Youtube URL </label>
+                                            <input class="form-control col-md-7 col-xs-12" name="youtube_url" id="youtube_url" value="" placeholder="Youtube URL" type="text" autocomplete="off">
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="pinterest_url">Pinterest URL </label>
+                                            <input class="form-control col-md-7 col-xs-12" name="pinterest_url" id="pinterest_url" value="" placeholder="Pinterest URL" type="text" autocomplete="off">
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="other_info">Other Info </label>
+                                            <textarea class="form-control col-md-7 col-xs-12 textarea-4column" name="other_info" id="other_info" placeholder="Other Info"></textarea>
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-xs-12">
+                                        <div class="item form-group">
+                                            <label for="photo">Teacher Photo </label>                                           
+                                                <div class="btn btn-default btn-file">
+                                                <i class="fa fa-paperclip"></i> Upload                                                <input class="form-control col-md-7 col-xs-12" name="photo" id="photo" value="" placeholder="email" type="file">
+                                            </div>
+                                            <div class="text-info">Image file format: .jpg, .jpeg, .png or .gif</div>
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                
+                                <div class="ln_solid"></div>
+                                <div class="form-group">
+                                    <div class="col-md-6 col-md-offset-3">
+                                        <a href="http://localhost/multischool/teacher" class="btn btn-primary">Cancel</a>
+                                        <button id="send" type="submit" class="btn btn-success">Submit</button>
+                                    </div>
+                                </div>
+                                </form>                            </div>
+                        </div>  
+
+                                                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
